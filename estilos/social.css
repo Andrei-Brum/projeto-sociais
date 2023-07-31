@@ -3,10 +3,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    
     font-family: Arial, Helvetica, sans-serif
 }
 
-::-webkit-scrollbar {  /* esconder barra de rolagem */
+::-webkit-scrollbar {  /* esconder barra de rolagem horizontal */
     width: 0px;
     height: 0px;
 }
@@ -18,7 +19,10 @@ a {
     display: block;
     background-color: green;
     color: white;
-    padding: 20px;
+    
+    padding: 17px;
+    width: 233px;
+   
     text-align: center;
     font-weight: bolder;
     text-decoration: none;
